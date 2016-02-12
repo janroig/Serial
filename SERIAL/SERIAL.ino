@@ -1,6 +1,6 @@
 /**********************************************************************************************************
 **                                                                                                       **
-**                        Operacions suma, resta, multiplicació i divisió                                **                             
+**                        Operacions suma, resta, multiplicació i divisió                                **
 **                                                                                                       **
 ***********************************************************************************************************/
 
@@ -33,24 +33,24 @@ void setup() {
 
   Serial.print("a * c = ");       // multipicació
   Serial.println(a * c);
-  
+
   Serial.print("c / b = ");       // divisió
   Serial.println(c / b);
 
   Serial.print("c % b = ");       // tant per cent
   Serial.println(c % b);
-  
+
   Serial.print("b - c = ");       // resta
   Serial.println(b - c);
 }
 
-  
+
 
 
 //******  Loop  ***********************************************
 
 void loop() {                      // Es nesesita aixo aqui encara que no s'utilitzi
-  
-  }
+
+}
 
 
